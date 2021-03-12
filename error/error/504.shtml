@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="https://cdn.patrickh.ca/images/error/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="https://cdn.patrickh.ca/images/error/favicon.ico" type="image/x-icon">
+	<title>504: Gateway Timeout</title>
+	<link href="https://cdn.patrickh.ca/fonts/kanit.css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="https://cdn.patrickh.ca/css/fontawesome/css/all.css">
+	<link type="text/css" rel="stylesheet" href="https://cdn.patrickh.ca/css/error/main.css">
+</head>
+<body>
+	<div id="error">
+		<div class="error">
+			<div class="error-main">
+				<h1>504</h1>
+			</div>
+			<h2>Gateway Timeout</h2>
+			<p>Your request just timed out. Check your internet connection and try again. If this still occurs, email <a href="mailto:help@patrickh.ca">help@patrickh.ca</a> for help.</p>
+	    </div>
+	</div>
+    
+</body></html>

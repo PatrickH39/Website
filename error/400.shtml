@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="https://cdn.patrickh.ca/images/error/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="https://cdn.patrickh.ca/images/error/favicon.ico" type="image/x-icon">
+	<title>400: Bad Request</title>
+	<link href="https://cdn.patrickh.ca/fonts/kanit.css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="https://cdn.patrickh.ca/css/fontawesome/css/all.css">
+	<link type="text/css" rel="stylesheet" href="https://cdn.patrickh.ca/css/error/main.css">
+</head>
+<body>
+	<div id="error">
+		<div class="error">
+			<div class="error-main">
+				<h1>400</h1>
+			</div>
+			<h2>Bad Request</h2>
+			<p>Your browser has just made a bad request to our servers. Try to clear your cache and cookies in your settings. If that doesn't help, email <a href="mailto:help@patrickh.ca">help@patrickh.ca</a>.</p>
+	    </div>
+	</div>
+    </body>
+</html>

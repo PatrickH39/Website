@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: /error
+Disallow: /socials
+Disallow: /css
+Disallow: /images
+Disallow: /fonts
+
+Sitemap: https://patrickh.ca/sitemap.xml

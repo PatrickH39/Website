@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="https://cdn.patrickh.ca/images/error/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="https://cdn.patrickh.ca/images/error/favicon.ico" type="image/x-icon">
+	<title>403: Forbidden</title>
+	<link href="https://cdn.patrickh.ca/fonts/kanit.css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="https://cdn.patrickh.ca/css/fontawesome/css/all.css">
+	<link type="text/css" rel="stylesheet" href="https://cdn.patrickh.ca/css/error/main.css">
+</head>
+<body>
+	<div id="error">
+		<div class="error">
+			<div class="error-main">
+				<h1>403</h1>
+			</div>
+			<h2>Forbidden</h2>
+			<p>The resources that you are trying to access may have been authenticated with the correct credentials, but the server does not want to accept them. You may also have received this message because your session has expired; or if you have been trying to access internal folders within the server. Email <a href="mailto:help@patrickh.ca">help@patrickh.ca</a> for help or <a href="https://patrickh.ca">go back to the homepage</a>.</p>
+	    </div>
+	</div>
+    </body>
+</html>

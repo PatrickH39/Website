@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="https://cdn.patrickh.ca/images/error/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="https://cdn.patrickh.ca/images/error/favicon.ico" type="image/x-icon">
+	<title>401: Authoirization Required</title>
+	<link href="https://cdn.patrickh.ca/fonts/kanit.css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="https://cdn.patrickh.ca/css/fontawesome/css/all.css">
+	<link type="text/css" rel="stylesheet" href="https://cdn.patrickh.ca/css/error/main.css">
+</head>
+<body>
+	<div id="error">
+		<div class="error">
+			<div class="error-main">
+				<h1>401</h1>
+			</div>
+			<h2>Authoirization Required</h2>
+			<p>The resources that you are trying to access has not been authenticated with credentials yet. If you think this is made in an error, email <a href="mailto:help@patrickh.ca">help@patrickh.ca</a>. Otherwise, <a href="https://patrickh.ca">go back to the homepage.</a></p>
+	    </div>
+	</div>
+    </body>
+</html>
