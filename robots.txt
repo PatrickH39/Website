@@ -1,7 +1,5 @@
 User-Agent: *
-Disallow: /error
 Disallow: /socials
-Disallow: /css
 Disallow: /images
 Disallow: /fonts
 
