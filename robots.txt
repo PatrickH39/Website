@@ -1,5 +1,4 @@
 User-Agent: *
-Disallow: /socials
 Disallow: /images
 Disallow: /fonts
 
