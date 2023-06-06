@@ -21,22 +21,22 @@
 
 ::-moz-selection {
   background: #fcfcfc;
-  background: hsla(0, 0%, 100%, 0.2);
+  background: #ffffff33;
   text-shadow: none;
 }
 
 ::selection {
   background: #fcfcfc;
-  background: hsla(0, 0%, 100%, 0.2);
+  background: #ffffff33;
   text-shadow: none;
 }
 
 .no-webp .background {
   width: 100%;
   height: 100%;
-  background: -moz-linear-gradient(rgb(26 39 83 / 60%) 100%, rgb(26 39 83 / 60%) 100%);
-  background: -webkit-linear-gradient(rgb(26 39 83 / 60%) 100%, rgb(26 39 83 / 60%) 100%);
-  background: linear-gradient(rgb(26 39 83 / 60%) 100%, rgb(26 39 83 / 60%) 100%), url("images/city.jpeg") no-repeat center center fixed;
+  background: -moz-linear-gradient(#1a275399 100%, #1a275399 100%);
+  background: -webkit-linear-gradient(#1a275399 100%, #1a275399 100%);
+  background: linear-gradient(#1a275399 100%, #1a275399 100%), url("images/city.jpeg") no-repeat center center fixed;
   background-size: cover;
   background-position: center;
   -webkit-background-size: cover;
@@ -48,9 +48,9 @@
   width: 100%;
   height: 100%;
 
-  background: -moz-linear-gradient(rgb(26 39 83 / 60%) 100%, rgb(26 39 83 / 60%) 100%);
-  background: -webkit-linear-gradient(rgb(26 39 83 / 60%) 100%, rgb(26 39 83 / 60%) 100%);
-  background: linear-gradient(rgb(26 39 83 / 60%) 100%, rgb(26 39 83 / 60%) 100%), url("images/city.webp") no-repeat center center fixed;
+  background: -moz-linear-gradient(#1a275399 100%, #1a275399 100%);
+  background: -webkit-linear-gradient(#1a275399 100%, #1a275399 100%);
+  background: linear-gradient(#1a275399 100%, #1a275399 100%), url("images/city.webp") no-repeat center center fixed;
   background-size: cover;
   background-position: center;
   -webkit-background-size: cover;
@@ -66,7 +66,7 @@
   z-index: 2;
   width: 50%;
   text-align: center;
-  color: white;
+  color: #ffffff;
 }
 
 #main h1 {
@@ -102,7 +102,7 @@
   padding: 10px 16px 10px 16px;
   border-radius: 6px;
   font-size: 2.1em;
-  color: #fff;
+  color: #ffffff;
   transition: 0.3s;
 }
 
@@ -120,9 +120,9 @@
 
 .button {
   background-color: #004dcf6b;
-  border: 2px solid #b0cdff61;
+  border: 2px solid #071f639c;
   border-radius: 2.45rem;
-  color: white;
+  color: #ffffff;
   margin-top: 16px;
   padding: 12px 38px;
   text-align: center;
