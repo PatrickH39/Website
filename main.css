@@ -138,3 +138,7 @@
 .button:hover {
   background-color: #004dcfa6;
 }
+
+.button:active {
+  transform: scale(0.98);
+}
