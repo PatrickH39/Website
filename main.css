@@ -1,127 +1,152 @@
 @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(roboto.woff) format('woff');
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(roboto.woff) format("woff");
 }
 
 * {
-    box-sizing: border-box
+  box-sizing: border-box;
 }
 
 #container {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
 }
 
 ::-moz-selection {
-    background: #fcfcfc;
-    background: hsla(0, 0%, 100%, .2);
-    text-shadow: none
+  background: #fcfcfc;
+  background: hsla(0, 0%, 100%, 0.2);
+  text-shadow: none;
 }
 
- ::selection {
-    background: #fcfcfc;
-    background: hsla(0, 0%, 100%, .2);
-    text-shadow: none
+::selection {
+  background: #fcfcfc;
+  background: hsla(0, 0%, 100%, 0.2);
+  text-shadow: none;
 }
 
 .no-webp .background {
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background: -moz-linear-gradient(0deg, rgba(253, 126, 20, 0.5) 0%, rgba(0, 123, 255, 0.5) 100%);
-    background: -webkit-linear-gradient(0deg, rgba(253, 126, 20, 0.5) 0%, rgba(0, 123, 255, 0.5) 100%);
-    background: linear-gradient(0deg, rgba(253, 126, 20, 0.5) 0%, rgba(0, 123, 255, 0.5) 100%), url("images/city.jpeg") no-repeat center center fixed
+  width: 100%;
+  height: 100%;
+  background: -moz-linear-gradient(
+    rgb(26 39 83 / 60%) 100%,
+    rgb(26 39 83 / 60%) 100%
+  );
+  background: -webkit-linear-gradient(
+    rgb(26 39 83 / 60%) 100%,
+    rgb(26 39 83 / 60%) 100%
+  );
+  background: linear-gradient(
+      rgb(26 39 83 / 60%) 100%,
+      rgb(26 39 83 / 60%) 100%
+    ),
+    url("images/city.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .webp .background {
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background: -moz-linear-gradient(0deg, rgba(253, 126, 20, 0.5) 0%, rgba(0, 123, 255, 0.5) 100%);
-    background: -webkit-linear-gradient(0deg, rgba(253, 126, 20, 0.5) 0%, rgba(0, 123, 255, 0.5) 100%);
-    background: linear-gradient(0deg, rgba(253, 126, 20, 0.5) 0%, rgba(0, 123, 255, 0.5) 100%), url("images/city.webp") no-repeat center center fixed
+  width: 100%;
+  height: 100%;
+
+  background: -moz-linear-gradient(
+    rgb(26 39 83 / 60%) 100%,
+    rgb(26 39 83 / 60%) 100%
+  );
+  background: -webkit-linear-gradient(
+    rgb(26 39 83 / 60%) 100%,
+    rgb(26 39 83 / 60%) 100%
+  );
+  background: linear-gradient(
+      rgb(26 39 83 / 60%) 100%,
+      rgb(26 39 83 / 60%) 100%
+    ),
+    url("images/city.webp") no-repeat center center fixed;
+  background-size: cover;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
-  
+
 #main {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 50%;
-    text-align: center;
-    color: white
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 50%;
+  text-align: center;
+  color: white;
 }
 
 #main h1 {
-    font-size: 3.5em
+  font-size: 3.5em;
 }
 
 #main h1 {
-    padding: 0;
-    margin: 0px 0px 30px 0px;
-    font-family: Roboto, sans-serif;
-    font-weight: 400
+  padding: 0;
+  margin: 0px 0px 30px 0px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
 }
 
 #main ul {
-    padding: 0
+  padding: 0;
 }
 
 #main ul li {
-    display: inline-block;
-    list-style-type: none
+  display: inline-block;
+  list-style-type: none;
 }
 
 #main ul li a {
-    text-decoration: none;
-    position: relative;
-    display: block;
-    overflow: hidden;
-    text-align: center;
-    white-space: nowrap
+  text-decoration: none;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  white-space: nowrap;
 }
 
 #main ul li a i {
-    padding-left: 12px;
-    padding-right: 12px;
-    margin-bottom: 16px;
-    font-size: 2.1em;
-    color: #fff
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 16px;
+  font-size: 2.1em;
+  color: #fff;
+  transition: 0.3s;
 }
 
+#main ul li a i:hover {
+  color: rgb(81, 113, 216) !important;
+}
 
 .button {
-    background-color: #004dcf96;
-    border: 2px solid #113378;
-    border-radius: 2.45rem;
-    color: white;
-    padding: 12px 48px;
-    text-align: center;
-    font-family: Roboto, sans-serif;
-    font-size: 1.2em;
-    font-weight: bold;
-    transition: 0.3s;
-    display: inline-block;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  .button:hover {
-    background-color: #004dcfe3
+  background-color: #004dcf96;
+  border: 2px solid #113378;
+  border-radius: 2.45rem;
+  color: white;
+  padding: 12px 48px;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #004dcfe3;
 }
