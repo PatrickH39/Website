@@ -1,5 +1,4 @@
 User-Agent: *
 Disallow: /images
-Disallow: /fonts
 
 Sitemap: https://patrickh.ca/sitemap.xml
