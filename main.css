@@ -34,19 +34,9 @@
 .no-webp .background {
   width: 100%;
   height: 100%;
-  background: -moz-linear-gradient(
-    rgb(26 39 83 / 60%) 100%,
-    rgb(26 39 83 / 60%) 100%
-  );
-  background: -webkit-linear-gradient(
-    rgb(26 39 83 / 60%) 100%,
-    rgb(26 39 83 / 60%) 100%
-  );
-  background: linear-gradient(
-      rgb(26 39 83 / 60%) 100%,
-      rgb(26 39 83 / 60%) 100%
-    ),
-    url("images/city.jpeg") no-repeat center center fixed;
+  background: -moz-linear-gradient(rgb(26 39 83 / 60%) 100%, rgb(26 39 83 / 60%) 100%);
+  background: -webkit-linear-gradient(rgb(26 39 83 / 60%) 100%, rgb(26 39 83 / 60%) 100%);
+  background: linear-gradient(rgb(26 39 83 / 60%) 100%, rgb(26 39 83 / 60%) 100%), url("images/city.jpeg") no-repeat center center fixed;
   background-size: cover;
   background-position: center;
   -webkit-background-size: cover;
@@ -58,19 +48,9 @@
   width: 100%;
   height: 100%;
 
-  background: -moz-linear-gradient(
-    rgb(26 39 83 / 60%) 100%,
-    rgb(26 39 83 / 60%) 100%
-  );
-  background: -webkit-linear-gradient(
-    rgb(26 39 83 / 60%) 100%,
-    rgb(26 39 83 / 60%) 100%
-  );
-  background: linear-gradient(
-      rgb(26 39 83 / 60%) 100%,
-      rgb(26 39 83 / 60%) 100%
-    ),
-    url("images/city.webp") no-repeat center center fixed;
+  background: -moz-linear-gradient(rgb(26 39 83 / 60%) 100%, rgb(26 39 83 / 60%) 100%);
+  background: -webkit-linear-gradient(rgb(26 39 83 / 60%) 100%, rgb(26 39 83 / 60%) 100%);
+  background: linear-gradient(rgb(26 39 83 / 60%) 100%, rgb(26 39 83 / 60%) 100%), url("images/city.webp") no-repeat center center fixed;
   background-size: cover;
   background-position: center;
   -webkit-background-size: cover;
@@ -119,24 +99,32 @@
 }
 
 #main ul li a i {
-  padding-left: 12px;
-  padding-right: 12px;
-  margin-bottom: 16px;
+  padding: 10px 16px 10px 16px;
+  border-radius: 6px;
   font-size: 2.1em;
   color: #fff;
   transition: 0.3s;
 }
 
 #main ul li a i:hover {
-  color: rgb(81, 113, 216) !important;
+  background-color: #ffffff29;
+}
+
+#main ul li a i:active {
+  background-color: #ffffff4f;
+}
+
+#main button i {
+  margin-right: 12px;
 }
 
 .button {
-  background-color: #004dcf96;
+  background-color: #004dcf6b;
   border: 2px solid #ffffff8c;
   border-radius: 2.45rem;
   color: white;
-  padding: 12px 48px;
+  margin-top: 16px;
+  padding: 12px 38px;
   text-align: center;
   font-family: Roboto, sans-serif;
   font-size: 1.2em;
@@ -148,5 +136,5 @@
 }
 
 .button:hover {
-  background-color: #004dcfe3;
+  background-color: #004dcfa6;
 }
