@@ -31,6 +31,15 @@
   text-shadow: none;
 }
 
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 .no-webp .background {
   width: 100%;
   height: 100%;
@@ -118,7 +127,7 @@
   margin-right: 12px;
 }
 
-.button {
+.resume_btn {
   background-color: #004dcf6b;
   border: 2px solid #071f639c;
   border-radius: 2.45rem;
@@ -135,10 +144,10 @@
   cursor: pointer;
 }
 
-.button:hover {
+.resume_btn:hover {
   background-color: #004dcfa6;
 }
 
-.button:active {
+.resume_btn:active {
   transform: scale(0.98);
 }
