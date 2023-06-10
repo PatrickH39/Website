@@ -56,7 +56,6 @@
 .webp .background {
   width: 100%;
   height: 100%;
-
   background: -moz-linear-gradient(#1a275399 100%, #1a275399 100%);
   background: -webkit-linear-gradient(#1a275399 100%, #1a275399 100%);
   background: linear-gradient(#1a275399 100%, #1a275399 100%), url("images/city.webp") no-repeat center center fixed;
@@ -170,19 +169,19 @@
   animation-name: fadeInUp;
   animation-duration: 1s;
   animation-fill-mode: both;
-  animation-delay: 1s;
+  animation-delay: 0.5s;
 }
 
 .fade-icons {
   animation-name: fadeInUp;
   animation-duration: 1s;
   animation-fill-mode: both;
-  animation-delay: 1.5s;
+  animation-delay: 1s;
 }
 
 .fade-button {
   animation-name: fadeInUp;
   animation-duration: 1s;
   animation-fill-mode: both;
-  animation-delay: 2s;
+  animation-delay: 1.5s;
 }
