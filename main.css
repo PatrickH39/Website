@@ -170,18 +170,19 @@
   animation-name: fadeInUp;
   animation-duration: 1s;
   animation-fill-mode: both;
+  animation-delay: 1s;
 }
 
 .fade-icons {
   animation-name: fadeInUp;
   animation-duration: 1s;
   animation-fill-mode: both;
-  animation-delay: 0.5s;
+  animation-delay: 1.5s;
 }
 
 .fade-button {
   animation-name: fadeInUp;
   animation-duration: 1s;
   animation-fill-mode: both;
-  animation-delay: 1s;
+  animation-delay: 2s;
 }
