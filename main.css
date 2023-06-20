@@ -145,7 +145,6 @@
 
 .resume_btn:hover {
   background-color: #004ccf98;
-  box-shadow: 0 0 10px #1e409c9c, 0 0 20px #1e409c9c, 0 0 20px #004ccf49 inset;
 }
 
 .resume_btn:active {
