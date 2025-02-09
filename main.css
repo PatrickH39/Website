@@ -45,7 +45,7 @@
   height: 100%;
   background: -moz-linear-gradient(#1a275399 100%, #1a275399 100%);
   background: -webkit-linear-gradient(#1a275399 100%, #1a275399 100%);
-  background: linear-gradient(#1a275399 100%, #1a275399 100%), url("images/city.jpeg") no-repeat center center fixed;
+  background: linear-gradient(#1a275399 100%, #1a275399 100%), url("static/images/city.jpeg") no-repeat center center fixed;
   background-size: cover;
   background-position: center;
   -webkit-background-size: cover;
@@ -58,7 +58,7 @@
   height: 100%;
   background: -moz-linear-gradient(#1a275399 100%, #1a275399 100%);
   background: -webkit-linear-gradient(#1a275399 100%, #1a275399 100%);
-  background: linear-gradient(#1a275399 100%, #1a275399 100%), url("images/city.webp") no-repeat center center fixed;
+  background: linear-gradient(#1a275399 100%, #1a275399 100%), url("static/images/city.webp") no-repeat center center fixed;
   background-size: cover;
   background-position: center;
   -webkit-background-size: cover;
